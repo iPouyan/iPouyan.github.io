@@ -21,6 +21,8 @@ body {
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+  direction: rtl;
+  text-align: right;
 }
 
 .container {
@@ -28,6 +30,7 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+  direction: rtl;
 }
 
 h1, h2, h3, h4, h5, h6 {
